@@ -1,0 +1,417 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    padding: 10px;
+
+}
+#search{
+    background-image: url(icons8-search-144.png);
+    background-repeat: no-repeat;
+    width:20rem;
+    background-size: 24px;
+    background-position: 10px 10px;
+    height:3rem;
+    border-radius: 3rem;
+    padding-left: 2.5rem;
+    border-color: 1px solid black;
+}
+#loginbtn{
+    width:4rem;
+    height:2.5rem;
+    border: 1px solid black;
+    background-color: white;
+}
+#signupbtn{
+    width:4rem;
+    height:2.5rem;
+    background-color:black;
+    color:white;
+}
+body{
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.courses{
+    border: 2px;
+    padding: 5px;
+    text-wrap: wrap;
+    column-gap: 3px;
+    display: flex;
+    
+}
+
+#button{
+    display: flex;
+  column-gap: 20px;
+  row-gap:10px;
+ flex-wrap: wrap;
+ padding-left: 30px;
+ 
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#card1{
+    border:1px solid black;
+    box-shadow: 2px 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left;
+    width:250px;
+    border-right: 3px solid purple;
+    border-top: 3px solid purple;
+    border-left: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+#card2{
+    border:1px solid black;
+    box-shadow: 2px 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left;
+    width:250px;
+    border-right: 3px solid purple;
+    border-top: 3px solid purple;
+    border-left: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+#card3{
+    border:1px solid black;
+    box-shadow: 2px 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left;
+    width:250px;
+    border-right: 3px solid purple;
+    border-top: 3px solid purple;
+    border-left: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+#card4{
+    border:1px solid black;
+    box-shadow: 2px 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left;
+    width:250px;
+    border-right: 1px solid purple;
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+    border-bottom: 1px solid purple;
+}
+
+
+
+
+.goals{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#goal_1{
+    width: 400px;
+    background-position: 10px 10px;
+    padding: 10px;
+    border-right: 1px solid purple;
+    border-top: 1px solid purple;
+    border-left: 10px solid purple;
+    border-bottom: 1px solid purple;
+    border-radius: 20px;
+}
+#goal_2{
+    background-position: 10px 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border-right: 1px solid purple;
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+    border-bottom: 1px solid purple;
+    
+}
+#goal_3{
+    background-position: 10px 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border-right: 1px solid purple ;
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+    border-bottom: 1px solid purple;
+    
+   
+}
+#goal_4{
+    background-position: 10px 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border-right: 1px solid purple;
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+    border-bottom: 1px solid purple;
+    
+}
+
+
+.view{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#view1{
+    
+    width: 250px;
+    height: 500px;
+    padding: 10px;
+    border-right: 3px solid lightpink;
+    border-top: 3px solid lightpink;
+    border-left: 3px solid lightpink;
+    border-bottom: 3px solid lightpink;
+}
+
+#view2{
+    width: 250px;
+    height: 500px;
+    padding:10px;
+    
+    border-right: 3px solid lightpink;
+    border-top: 3px solid lightpink;
+    border-left: 3px solid lightpink;
+    border-bottom: 3px solid lightpink;
+}
+#view3{
+    width: 250px;
+    height: 500px;
+    padding:10px;
+    
+    border-right: 3px solid lightpink;
+    border-top: 3px solid lightpink;
+    border-left: 3px solid lightpink;
+    border-bottom: 3px solid lightpink;
+    
+}
+#view4{
+    width: 250px;
+    height: 500px;
+    padding:10px;
+   
+    border-right: 3px solid lightpink;
+    border-top: 3px solid lightpink;
+    border-left: 3px solid lightpink;
+    border-bottom: 3px solid lightpink;
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+   background-color: white;
+    justify-content: space-evenly;
+}
+#plan1{
+    width: 300px;
+    height: 750px;
+    padding:10px;
+    border:1px solid #bbb;
+    border-top: 10px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    
+}
+#plan2{
+    width: 300px;
+    height: 750px;
+    padding:10px;
+    border:1px solid #bbb;
+    border-top: 10px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+#plan3{
+    width: 300px;
+    height: 750px;
+    padding:10px;
+    border:1px solid #bbb;
+    border-top: 10px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    
+}
+.learner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#learner1{
+    width: 250px;
+    height: 400px;
+    padding:5px;
+    border:1px solid #bbb;
+    border-right: 5px solid blue;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+#learner2{
+    width: 250px;
+    height: 400px;
+    padding:5px;
+    border:1px solid #bbb;
+    border-right: 5px solid blue;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+#learner3{
+    width: 250px;
+    height: 400px;
+    padding:5px;
+    border:1px solid #bbb;
+    border-right: 5px solid blue;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+#learner4{
+    width: 250px;
+    height: 400px;
+    padding:5px;
+    border:1px solid #bbb;
+    border-right: 5px solid blue;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+.reports{
+    background-color: rgb(235, 244, 241);
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#reports_1{
+background-color: rgb(242, 250, 247);
+}
+
+.trend{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#trend1{
+    width: 250px;
+    height: 300px;
+    padding:10px;
+    
+}
+#trend2{
+    width: 250px;
+    height: 300px;
+    padding:10px;
+    
+}
+#trend3{
+    width: 250px;
+    height: 300px;
+    padding:10px;
+    
+}
+#trend4{
+    width: 250px;
+    height: 300px;
+    padding:10px;
+    
+}
+.skills{
+    display: flex;
+    padding:100px;
+    justify-content: space-between;
+}
+
+.business2{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#business2_1{
+    width: 250px;
+    height: 300px;
+    padding:10px;
+    
+}
+#business2_1 a{
+    color:white;
+}
+#business2_2{
+    width:250px;
+    height:300px ;
+    padding:10px;
+}
+#business2_2 a{
+color:white;
+}
+#business2_3{
+    width:250px;
+    height:300px ;
+    padding:10px;
+}
+
+#business2_3 a{
+    color:white;
+}
+#business2_4{
+    width:250px;
+    height:300px ;
+    padding:10px;
+}
+#business2_4 a{
+    color:white;
+}
+#logo{
+    display: flex;
+    padding: 50px;
+    background-color: black;
+    
+        padding-right: 1000px;
+        flex-wrap: wrap;
+        
+    }
+@media (max-width:930px){
+    .hidden{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
+
+
+
+
+
+    
